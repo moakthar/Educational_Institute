@@ -76,7 +76,7 @@ button {
 /* Staff & Admin Login Stylesheet : */
 
 .bg {
-    background: url(images/staff-login.jpg);
+    background: url(img/staff-login.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px 100px 0 480px;

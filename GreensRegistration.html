@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Greens2.css">
+    <link rel="shortcut icon" href="images/greens technology favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- navigation bar -->
+    <div class="navbar">
+
+        <img class="logo" src="images/greenstechnologys_logo.png">
+
+        <ul>
+            <li> <a class="active" href="GreensHome.html">Home</a> </li>
+            <li> <a class="active" href="GreensRegistration.html" target="_blank">Registration</a> </li>
+            <li> <a class="active" href="courses.html">Course</a> </li>
+            <li> <a class="active" href="contact.html">Contact Us</a> </li>
+            <li> <a class="active" href="branches.html">Branches</a> </li>
+            <li> <a class="active" href="GreensLogin.html" target="_blank"><button class="btn">Login</button></a> </li>
+        </ul>
+
+    </div>
+
+    <!-- Form Inputs -->
+    <form class="regis">
+
+        <h1>Student Registration :</h1> <br><br>
+
+        <label class="one">Enter Your Name :
+            <input type="text" name="Name" placeholder="Your Name" required>
+        </label> <br><br>
+
+        <label class="two">Enter Your Mobile Number :
+            <input type="number" name="Mobile" placeholder="Mobile Number" required>
+        </label> <br><br>
+
+        <label class="three">Enter Your Mail Id :
+            <input type="email" name="Mail" placeholder="Mail Id" required>
+        </label> <br><br>
+
+        <label class="four">Select Your Courses :
+            <select name="Courses">
+                <option value="none">--None--</option>
+                <option value="Java">Java</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Php">Php</option>
+                <option value="DevOps">DevOps</option>
+            </select>
+        </label><br><br>
+
+        <label class="five">Gender :
+            <input id="point" type="radio" name="Gender" value="Men">Men
+            <input id="point" type="radio" name="Gender" value="Women">Women
+            <input id="point" type="radio" name="Gender" value="Others">Others
+        </label> <br><br>
+
+        <label class="six">Enter Your Nearby Branches :
+            <select name="Branch Location">
+                <option value="none">--None--</option>
+                <option value="Adyar">Adyar</option>
+                <option value="Velachery">Velachery</option>
+                <option value="Thoraipakkam">Thoraipakkam</option>
+                <option value="Vadapalani">Vadapalani</option>
+                <option value="Perumbakkam">Perumbakkam</option>
+                <option value="Mugalivakkam">Mugalivakkam</option>
+                <option value="Perungudi">Perungudi</option>
+                <option value="Anna Nagar">Anna Nagar</option>
+            </select>
+        </label><br><br>
+
+        <p>**If Your Existing Register and Student Please Attach your File.**</p>
+        <p id="dot" >Attach your File. <input id="dot" type="file" name="File"></p><br><br><br><br><br>
+
+        <div class="seven">
+           <button><a href="CompletedForm.html">Submit</a></button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>

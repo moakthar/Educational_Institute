@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(5, 39, 5);
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.logo {
+    width: 211px;
+    height: auto;
+    padding: 15px 40px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    line-height: 70px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: larger;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar ul li a.active:hover {
+    background: rgb(95, 161, 95);
+    color: white;
+    border-radius: 2px;
+}
+
+.center {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.wassup {
+    position: sticky;
+    top: 0%;
+    float: right;
+    padding-top: 10.3%;
+
+}
+
+.para {
+    position: static;
+    top: 80px;
+    margin: 10px 200px 0 200px;
+    padding: 0 30px 0 30px;
+    width: 800px;
+    height: 900px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+.para a {
+    text-decoration: none;
+    color: black;
+}
+
+iframe {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    bottom: 46.5%;
+    left: 80.5%;
+    cursor: pointer;
+}

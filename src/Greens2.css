@@ -1,0 +1,171 @@
+body {
+    background-image: url(images/Registration\ background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
+.logo {
+    width: 211px;
+    height: auto;
+    padding: 15px 40px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    line-height: 70px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-size: larger;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+    padding: 4px 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar ul li a.active:hover {
+    background: rgb(95, 161, 95);
+    color: white;
+    border-radius: 2px;
+}
+90
+
+.regis {
+    position: static;
+    top: 80px;
+    margin: 10px 200px 0 200px;
+    padding: 10px 30px 0 30px;
+    width: 800px;
+    height: 700px;
+    border: 1px solid black;9pp9999pp999pp90999pp0p99p09999999909990p99p9p9p9999999999p9099999999p999p9990990p999p09p999p9909p9909999p999999999999999999999909999pp99p00p0909999p90p099p09999pp9pp999099999p99p999p9999p99999ppp99pp9999999999p99999999999p9999999990999p9p99999p99999999p9p999p999p999999p9999999pppp9pp9p999pp99p999p99pp90p0p9p9999pp99999p9999999p9999ppp99p9p9pp9999pp9pp0p9pp909pp99p9pp9999999999pp909p99ppp9p9pppp9pp9999pp99p0999p9p9999p0p0p99ppp90m
+    border-radius: 15px;
+    background-color: rgba(250, 248, 248, 0.932);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.regis h1 {
+    text-align: center;
+    background-color: #082909;
+    color: white;
+    border-radius: 15px;
+}
+
+.one {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.two {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.three {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.four {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+.five {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+#point {
+    width: 20px;
+    height: 15px;
+}
+
+.six {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: #082909;
+    border-style: groove;
+}
+
+option {
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dot {
+   border: 0px;
+   border-radius: 0px;
+   font-size: large;
+}
+
+.seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    font-size: larger;
+    background-color: #4CAF50;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Completed Form Stylesheet : */
+
+.ice {
+    background: #082909;
+}
+
+.more {
+    margin-top: 200px;
+    text-align: center;
+}
